@@ -1,0 +1,2562 @@
+{
+  "method": "stratified random compressed-byte windows, independent complete zstd frames; stable hash general sample; all annotated games retained separately",
+  "months": [
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09"
+  ],
+  "strata_per_month": 8,
+  "window_mib": 16,
+  "seed": 20261009,
+  "sample_rate": 0.06,
+  "archives": [
+    {
+      "month": "2026-04",
+      "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-04.pgn.zst",
+      "compressed_bytes": 29325351334
+    },
+    {
+      "month": "2026-05",
+      "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-05.pgn.zst",
+      "compressed_bytes": 29689176290
+    },
+    {
+      "month": "2026-06",
+      "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-06.pgn.zst",
+      "compressed_bytes": 28241946492
+    },
+    {
+      "month": "2026-07",
+      "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-07.pgn.zst",
+      "compressed_bytes": 29051046504
+    },
+    {
+      "month": "2026-08",
+      "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-08.pgn.zst",
+      "compressed_bytes": 30145862359
+    },
+    {
+      "month": "2026-09",
+      "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-09.pgn.zst",
+      "compressed_bytes": 29224520887
+    }
+  ],
+  "windows": [
+    {
+      "task": {
+        "id": "2026-04_s00",
+        "month": "2026-04",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-04.pgn.zst",
+        "archive_bytes": 29325351334,
+        "stratum": 0,
+        "stratum_start": 0,
+        "stratum_end": 3665668916,
+        "offset": 2865314309,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-04_s00.sqlite"
+      },
+      "counts": {
+        "records_seen": 28662,
+        "header_eligible": 28183,
+        "not_selected": 23541,
+        "processed_games": 4637,
+        "general_sample_games": 1734,
+        "annotated_games": 3079,
+        "evaluated_minor_moves": 67733,
+        "matched_outcome_games": 58,
+        "qualified_evaluation_player_games": 6109,
+        "bot": 120,
+        "not_rated": 316,
+        "below_rating_floor": 36,
+        "invalid_or_too_short": 5,
+        "unfinished": 6,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 4203605,
+          "compressed_bytes": 4677386,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 8881003,
+          "compressed_bytes": 4698963,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "15948b0d7da9ea2dec6814dde399d878dfe29b7f43b580b6be82b7ee62c9394c",
+      "content_range": "bytes 2865314309-2882091524/29325351334",
+      "elapsed_seconds": 29.78,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-04_s01",
+        "month": "2026-04",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-04.pgn.zst",
+        "archive_bytes": 29325351334,
+        "stratum": 1,
+        "stratum_start": 3665668916,
+        "stratum_end": 7331337833,
+        "offset": 7023046719,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-04_s01.sqlite"
+      },
+      "counts": {
+        "records_seen": 28896,
+        "header_eligible": 28643,
+        "not_selected": 23979,
+        "processed_games": 4661,
+        "general_sample_games": 1759,
+        "annotated_games": 3075,
+        "evaluated_minor_moves": 67901,
+        "matched_outcome_games": 54,
+        "qualified_evaluation_player_games": 6092,
+        "bot": 114,
+        "not_rated": 111,
+        "unfinished": 9,
+        "below_rating_floor": 18,
+        "invalid_or_too_short": 3,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 2710925,
+          "compressed_bytes": 4702699,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 7413636,
+          "compressed_bytes": 4712076,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "c1b601e5434c0ad7a0fd596159cfd2d0e7e987eb5ed32408de98bbd153f335d0",
+      "content_range": "bytes 7023046719-7039823934/29325351334",
+      "elapsed_seconds": 29.97,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-04_s02",
+        "month": "2026-04",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-04.pgn.zst",
+        "archive_bytes": 29325351334,
+        "stratum": 2,
+        "stratum_start": 7331337833,
+        "stratum_end": 10997006750,
+        "offset": 8189173959,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-04_s02.sqlite"
+      },
+      "counts": {
+        "records_seen": 43218,
+        "header_eligible": 42684,
+        "not_selected": 35716,
+        "processed_games": 6960,
+        "general_sample_games": 2587,
+        "annotated_games": 4677,
+        "evaluated_minor_moves": 103171,
+        "matched_outcome_games": 80,
+        "qualified_evaluation_player_games": 9289,
+        "bot": 127,
+        "invalid_or_too_short": 8,
+        "below_rating_floor": 59,
+        "not_rated": 345,
+        "unfinished": 2,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 208593,
+          "compressed_bytes": 4714483,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 4923088,
+          "compressed_bytes": 4731096,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 9654196,
+          "compressed_bytes": 4736104,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "281472545badd664a37e5c3cec8db4542cd06dde181017d9c9d2c20cc5371ea6",
+      "content_range": "bytes 8189173959-8205951174/29325351334",
+      "elapsed_seconds": 38.59,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-04_s03",
+        "month": "2026-04",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-04.pgn.zst",
+        "archive_bytes": 29325351334,
+        "stratum": 3,
+        "stratum_start": 10997006750,
+        "stratum_end": 14662675667,
+        "offset": 14594552792,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-04_s03.sqlite"
+      },
+      "counts": {
+        "records_seen": 42980,
+        "header_eligible": 42621,
+        "not_selected": 35826,
+        "processed_games": 6788,
+        "general_sample_games": 2675,
+        "annotated_games": 4396,
+        "evaluated_minor_moves": 96156,
+        "matched_outcome_games": 72,
+        "qualified_evaluation_player_games": 8721,
+        "below_rating_floor": 60,
+        "bot": 124,
+        "not_rated": 166,
+        "invalid_or_too_short": 7,
+        "unfinished": 8,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 2545729,
+          "compressed_bytes": 4670548,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 7216289,
+          "compressed_bytes": 4671985,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 11888286,
+          "compressed_bytes": 4679024,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "cbf2dac8440f5abc2c413dd9a4e05c94fe3ba5da2bcb315bd0067395186ddb12",
+      "content_range": "bytes 14594552792-14611330007/29325351334",
+      "elapsed_seconds": 37.52,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-04_s04",
+        "month": "2026-04",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-04.pgn.zst",
+        "archive_bytes": 29325351334,
+        "stratum": 4,
+        "stratum_start": 14662675667,
+        "stratum_end": 18328344583,
+        "offset": 16643496352,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-04_s04.sqlite"
+      },
+      "counts": {
+        "records_seen": 42989,
+        "header_eligible": 42491,
+        "not_selected": 35679,
+        "processed_games": 6794,
+        "general_sample_games": 2496,
+        "annotated_games": 4562,
+        "evaluated_minor_moves": 100015,
+        "matched_outcome_games": 64,
+        "qualified_evaluation_player_games": 9066,
+        "not_rated": 277,
+        "bot": 177,
+        "unfinished": 8,
+        "invalid_or_too_short": 18,
+        "below_rating_floor": 35,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 2032256,
+          "compressed_bytes": 4681338,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 6713606,
+          "compressed_bytes": 4665874,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 11379492,
+          "compressed_bytes": 4676313,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "ece23c255dd8bbe5e0abb70bd0a8e7ca3b9b06a186af8bbe15a91dcef2d227d6",
+      "content_range": "bytes 16643496352-16660273567/29325351334",
+      "elapsed_seconds": 38.33,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-04_s05",
+        "month": "2026-04",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-04.pgn.zst",
+        "archive_bytes": 29325351334,
+        "stratum": 5,
+        "stratum_start": 18328344583,
+        "stratum_end": 21994013500,
+        "offset": 18925661724,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-04_s05.sqlite"
+      },
+      "counts": {
+        "records_seen": 43314,
+        "header_eligible": 42970,
+        "not_selected": 36197,
+        "processed_games": 6771,
+        "general_sample_games": 2618,
+        "annotated_games": 4425,
+        "evaluated_minor_moves": 97436,
+        "matched_outcome_games": 79,
+        "qualified_evaluation_player_games": 8778,
+        "bot": 140,
+        "unfinished": 12,
+        "below_rating_floor": 36,
+        "not_rated": 155,
+        "invalid_or_too_short": 2,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 23194,
+          "compressed_bytes": 4705329,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 4728535,
+          "compressed_bytes": 4703290,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 9431837,
+          "compressed_bytes": 4711149,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "6047c8f7f62f7f1c8ab6f28818f8fc826ace03dd31fe6e3b9cb1b901dec637f8",
+      "content_range": "bytes 18925661724-18942438939/29325351334",
+      "elapsed_seconds": 35.25,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-04_s06",
+        "month": "2026-04",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-04.pgn.zst",
+        "archive_bytes": 29325351334,
+        "stratum": 6,
+        "stratum_start": 21994013500,
+        "stratum_end": 25659682417,
+        "offset": 23429896893,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-04_s06.sqlite"
+      },
+      "counts": {
+        "records_seen": 43012,
+        "header_eligible": 42747,
+        "not_selected": 35993,
+        "processed_games": 6750,
+        "general_sample_games": 2587,
+        "annotated_games": 4431,
+        "evaluated_minor_moves": 97434,
+        "matched_outcome_games": 71,
+        "qualified_evaluation_player_games": 8802,
+        "bot": 145,
+        "below_rating_floor": 21,
+        "unfinished": 35,
+        "not_rated": 63,
+        "invalid_or_too_short": 4,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 1861109,
+          "compressed_bytes": 4696428,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 6557549,
+          "compressed_bytes": 4697673,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 11255234,
+          "compressed_bytes": 4689832,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "b6429350577dfed066fa9a2fb1c56361eaf4e6e5c927bf0ec27511e0957b22e4",
+      "content_range": "bytes 23429896893-23446674108/29325351334",
+      "elapsed_seconds": 36.02,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-04_s07",
+        "month": "2026-04",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-04.pgn.zst",
+        "archive_bytes": 29325351334,
+        "stratum": 7,
+        "stratum_start": 25659682417,
+        "stratum_end": 29325351334,
+        "offset": 26019989786,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-04_s07.sqlite"
+      },
+      "counts": {
+        "records_seen": 28861,
+        "header_eligible": 28568,
+        "processed_games": 4350,
+        "general_sample_games": 1655,
+        "annotated_games": 2874,
+        "evaluated_minor_moves": 63137,
+        "matched_outcome_games": 46,
+        "qualified_evaluation_player_games": 5682,
+        "not_selected": 24214,
+        "bot": 82,
+        "below_rating_floor": 39,
+        "unfinished": 32,
+        "not_rated": 139,
+        "invalid_or_too_short": 4,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 2649457,
+          "compressed_bytes": 4708914,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 7358383,
+          "compressed_bytes": 4714866,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "4f3a254c0f827808fb0eee7d9f7947d967c51f77a76d9c4fe06ea671684183ee",
+      "content_range": "bytes 26019989786-26036767001/29325351334",
+      "elapsed_seconds": 26.98,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-05_s00",
+        "month": "2026-05",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-05.pgn.zst",
+        "archive_bytes": 29689176290,
+        "stratum": 0,
+        "stratum_start": 0,
+        "stratum_end": 3711147036,
+        "offset": 827842767,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-05_s00.sqlite"
+      },
+      "counts": {
+        "records_seen": 28588,
+        "header_eligible": 28422,
+        "not_selected": 23848,
+        "processed_games": 4573,
+        "general_sample_games": 1694,
+        "annotated_games": 3049,
+        "evaluated_minor_moves": 67349,
+        "matched_outcome_games": 60,
+        "qualified_evaluation_player_games": 6061,
+        "bot": 73,
+        "below_rating_floor": 48,
+        "invalid_or_too_short": 1,
+        "not_rated": 44,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 2963371,
+          "compressed_bytes": 4711710,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 7675093,
+          "compressed_bytes": 4700936,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "99e363d6077b037dd21422e0f3e07b189498d2c69755889bff0890a1451db9e8",
+      "content_range": "bytes 827842767-844619982/29689176290",
+      "elapsed_seconds": 27.0,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-05_s01",
+        "month": "2026-05",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-05.pgn.zst",
+        "archive_bytes": 29689176290,
+        "stratum": 1,
+        "stratum_start": 3711147036,
+        "stratum_end": 7422294072,
+        "offset": 6566545582,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-05_s01.sqlite"
+      },
+      "counts": {
+        "records_seen": 42813,
+        "header_eligible": 42611,
+        "not_selected": 35657,
+        "processed_games": 6949,
+        "general_sample_games": 2558,
+        "annotated_games": 4671,
+        "evaluated_minor_moves": 103519,
+        "matched_outcome_games": 86,
+        "qualified_evaluation_player_games": 9257,
+        "bot": 104,
+        "invalid_or_too_short": 5,
+        "below_rating_floor": 26,
+        "not_rated": 64,
+        "unfinished": 7,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 2552079,
+          "compressed_bytes": 4706353,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 7258444,
+          "compressed_bytes": 4709788,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 11968244,
+          "compressed_bytes": 4703738,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "9a3366044e250b1b9d920cfbadf7e33279ade0a878d1cd1ea3ade0cbad56dffd",
+      "content_range": "bytes 6566545582-6583322797/29689176290",
+      "elapsed_seconds": 35.5,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-05_s02",
+        "month": "2026-05",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-05.pgn.zst",
+        "archive_bytes": 29689176290,
+        "stratum": 2,
+        "stratum_start": 7422294072,
+        "stratum_end": 11133441108,
+        "offset": 10208532195,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-05_s02.sqlite"
+      },
+      "counts": {
+        "records_seen": 43024,
+        "header_eligible": 42617,
+        "not_selected": 35689,
+        "processed_games": 6920,
+        "general_sample_games": 2567,
+        "annotated_games": 4626,
+        "evaluated_minor_moves": 102112,
+        "matched_outcome_games": 78,
+        "qualified_evaluation_player_games": 9189,
+        "bot": 116,
+        "not_rated": 214,
+        "below_rating_floor": 71,
+        "unfinished": 5,
+        "invalid_or_too_short": 8,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 2355078,
+          "compressed_bytes": 4723238,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 7078328,
+          "compressed_bytes": 4734544,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 11812884,
+          "compressed_bytes": 4718387,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "1da5a3553b4bf050549939a35958bce7d9c917a70052477fb35e32d463894d19",
+      "content_range": "bytes 10208532195-10225309410/29689176290",
+      "elapsed_seconds": 36.3,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-05_s03",
+        "month": "2026-05",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-05.pgn.zst",
+        "archive_bytes": 29689176290,
+        "stratum": 3,
+        "stratum_start": 11133441108,
+        "stratum_end": 14844588145,
+        "offset": 13435444405,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-05_s03.sqlite"
+      },
+      "counts": {
+        "records_seen": 28698,
+        "header_eligible": 28439,
+        "not_selected": 23986,
+        "processed_games": 4449,
+        "general_sample_games": 1575,
+        "annotated_games": 3083,
+        "evaluated_minor_moves": 67742,
+        "matched_outcome_games": 42,
+        "qualified_evaluation_player_games": 6110,
+        "not_rated": 137,
+        "bot": 94,
+        "below_rating_floor": 23,
+        "invalid_or_too_short": 4,
+        "unfinished": 4,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 3579815,
+          "compressed_bytes": 4677139,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 8256966,
+          "compressed_bytes": 4685392,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "dbe677241405c16fef77a08117bf0b9488686fbe44432ac48116a7b76ceab253",
+      "content_range": "bytes 13435444405-13452221620/29689176290",
+      "elapsed_seconds": 26.55,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-05_s04",
+        "month": "2026-05",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-05.pgn.zst",
+        "archive_bytes": 29689176290,
+        "stratum": 4,
+        "stratum_start": 14844588145,
+        "stratum_end": 18555735181,
+        "offset": 16825074065,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-05_s04.sqlite"
+      },
+      "counts": {
+        "records_seen": 43192,
+        "header_eligible": 42656,
+        "not_selected": 35810,
+        "processed_games": 6838,
+        "general_sample_games": 2600,
+        "annotated_games": 4531,
+        "evaluated_minor_moves": 99337,
+        "matched_outcome_games": 85,
+        "qualified_evaluation_player_games": 8993,
+        "bot": 139,
+        "not_rated": 321,
+        "invalid_or_too_short": 8,
+        "below_rating_floor": 64,
+        "unfinished": 11,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 500567,
+          "compressed_bytes": 4717323,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 5217902,
+          "compressed_bytes": 4707558,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 9925472,
+          "compressed_bytes": 4712329,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "5d468d5dacfa166aebbf8ddd1ec3f88401df15f1606be9d904e835e5adaf3513",
+      "content_range": "bytes 16825074065-16841851280/29689176290",
+      "elapsed_seconds": 35.97,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-05_s05",
+        "month": "2026-05",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-05.pgn.zst",
+        "archive_bytes": 29689176290,
+        "stratum": 5,
+        "stratum_start": 18555735181,
+        "stratum_end": 22266882217,
+        "offset": 22095733131,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-05_s05.sqlite"
+      },
+      "counts": {
+        "records_seen": 28984,
+        "header_eligible": 28769,
+        "not_selected": 24394,
+        "processed_games": 4374,
+        "general_sample_games": 1656,
+        "annotated_games": 2873,
+        "evaluated_minor_moves": 63006,
+        "matched_outcome_games": 61,
+        "qualified_evaluation_player_games": 5697,
+        "bot": 115,
+        "not_rated": 74,
+        "below_rating_floor": 24,
+        "unfinished": 1,
+        "invalid_or_too_short": 1,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 3408566,
+          "compressed_bytes": 4679440,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 8088018,
+          "compressed_bytes": 4681575,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "cb5b8c8f8dce752be0b80d5d39e2a8b3ca02e84ce05be4b1e81afae347891a7d",
+      "content_range": "bytes 22095733131-22112510346/29689176290",
+      "elapsed_seconds": 27.23,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-05_s06",
+        "month": "2026-05",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-05.pgn.zst",
+        "archive_bytes": 29689176290,
+        "stratum": 6,
+        "stratum_start": 22266882217,
+        "stratum_end": 25978029253,
+        "offset": 25666798192,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-05_s06.sqlite"
+      },
+      "counts": {
+        "records_seen": 42832,
+        "header_eligible": 42503,
+        "not_selected": 35905,
+        "processed_games": 6593,
+        "general_sample_games": 2422,
+        "annotated_games": 4385,
+        "evaluated_minor_moves": 97163,
+        "matched_outcome_games": 68,
+        "qualified_evaluation_player_games": 8699,
+        "bot": 117,
+        "below_rating_floor": 20,
+        "not_rated": 160,
+        "unfinished": 31,
+        "invalid_or_too_short": 5,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 44119,
+          "compressed_bytes": 4701840,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 4745971,
+          "compressed_bytes": 4710552,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 9456535,
+          "compressed_bytes": 4710151,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "7658f2e8045aa1026a3f5272724400f3ad7ab83c38e39ec4ece2d633f6c2ef29",
+      "content_range": "bytes 25666798192-25683575407/29689176290",
+      "elapsed_seconds": 37.31,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-05_s07",
+        "month": "2026-05",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-05.pgn.zst",
+        "archive_bytes": 29689176290,
+        "stratum": 7,
+        "stratum_start": 25978029253,
+        "stratum_end": 29689176290,
+        "offset": 26970239031,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-05_s07.sqlite"
+      },
+      "counts": {
+        "records_seen": 43594,
+        "header_eligible": 43181,
+        "not_selected": 36567,
+        "processed_games": 6608,
+        "general_sample_games": 2614,
+        "annotated_games": 4243,
+        "evaluated_minor_moves": 91701,
+        "matched_outcome_games": 96,
+        "qualified_evaluation_player_games": 8395,
+        "invalid_or_too_short": 6,
+        "bot": 243,
+        "unfinished": 61,
+        "not_rated": 73,
+        "below_rating_floor": 35,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 2192238,
+          "compressed_bytes": 4671665,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 6863915,
+          "compressed_bytes": 4681181,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 11545108,
+          "compressed_bytes": 4685913,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "bbd485d989e881aa1a1a97919996f11a9f01b9a03c435a93895b6a6760984c66",
+      "content_range": "bytes 26970239031-26987016246/29689176290",
+      "elapsed_seconds": 36.81,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-06_s00",
+        "month": "2026-06",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-06.pgn.zst",
+        "archive_bytes": 28241946492,
+        "stratum": 0,
+        "stratum_start": 0,
+        "stratum_end": 3530243311,
+        "offset": 407259958,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-06_s00.sqlite"
+      },
+      "counts": {
+        "records_seen": 43394,
+        "header_eligible": 42989,
+        "not_selected": 36060,
+        "processed_games": 6922,
+        "general_sample_games": 2605,
+        "annotated_games": 4587,
+        "evaluated_minor_moves": 101340,
+        "matched_outcome_games": 87,
+        "qualified_evaluation_player_games": 9118,
+        "bot": 118,
+        "below_rating_floor": 50,
+        "not_rated": 233,
+        "unfinished": 3,
+        "invalid_or_too_short": 7,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 1130022,
+          "compressed_bytes": 4712541,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 5842575,
+          "compressed_bytes": 4710265,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 10552852,
+          "compressed_bytes": 4714048,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "b2d9d6b6eace573f558b6622675cc9e2088f76123fe4c8734fa11db0bf5ddb2a",
+      "content_range": "bytes 407259958-424037173/28241946492",
+      "elapsed_seconds": 37.66,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-06_s01",
+        "month": "2026-06",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-06.pgn.zst",
+        "archive_bytes": 28241946492,
+        "stratum": 1,
+        "stratum_start": 3530243311,
+        "stratum_end": 7060486623,
+        "offset": 5513330239,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-06_s01.sqlite"
+      },
+      "counts": {
+        "records_seen": 42893,
+        "header_eligible": 42278,
+        "not_selected": 35439,
+        "processed_games": 6830,
+        "general_sample_games": 2548,
+        "annotated_games": 4566,
+        "evaluated_minor_moves": 100991,
+        "matched_outcome_games": 103,
+        "qualified_evaluation_player_games": 9054,
+        "not_rated": 466,
+        "below_rating_floor": 55,
+        "bot": 92,
+        "invalid_or_too_short": 9,
+        "unfinished": 1,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 173031,
+          "compressed_bytes": 4734009,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 4907052,
+          "compressed_bytes": 4731459,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 9638523,
+          "compressed_bytes": 4726393,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "244f6cdcf891d84950f2d05a5e3cc5df4b37ddb8f91934d30f7e3b601c632c2e",
+      "content_range": "bytes 5513330239-5530107454/28241946492",
+      "elapsed_seconds": 38.75,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-06_s02",
+        "month": "2026-06",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-06.pgn.zst",
+        "archive_bytes": 28241946492,
+        "stratum": 2,
+        "stratum_start": 7060486623,
+        "stratum_end": 10590729934,
+        "offset": 9974017264,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-06_s02.sqlite"
+      },
+      "counts": {
+        "records_seen": 43368,
+        "header_eligible": 43020,
+        "not_selected": 36021,
+        "processed_games": 6995,
+        "general_sample_games": 2513,
+        "annotated_games": 4738,
+        "evaluated_minor_moves": 103987,
+        "matched_outcome_games": 57,
+        "qualified_evaluation_player_games": 9387,
+        "bot": 190,
+        "not_rated": 114,
+        "below_rating_floor": 34,
+        "unfinished": 9,
+        "invalid_or_too_short": 4,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 2460855,
+          "compressed_bytes": 4707479,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 7168346,
+          "compressed_bytes": 4709367,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 11877725,
+          "compressed_bytes": 4711397,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "5af4bdb73d139380b50295c35ea46a9cbcf4f86a7fd11cf6155209ecf20ed081",
+      "content_range": "bytes 9974017264-9990794479/28241946492",
+      "elapsed_seconds": 40.91,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-06_s03",
+        "month": "2026-06",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-06.pgn.zst",
+        "archive_bytes": 28241946492,
+        "stratum": 3,
+        "stratum_start": 10590729934,
+        "stratum_end": 14120973246,
+        "offset": 13985072043,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-06_s03.sqlite"
+      },
+      "counts": {
+        "records_seen": 28856,
+        "header_eligible": 28521,
+        "not_selected": 24046,
+        "processed_games": 4470,
+        "general_sample_games": 1728,
+        "annotated_games": 2904,
+        "evaluated_minor_moves": 63394,
+        "matched_outcome_games": 60,
+        "qualified_evaluation_player_games": 5749,
+        "bot": 123,
+        "below_rating_floor": 34,
+        "not_rated": 170,
+        "invalid_or_too_short": 5,
+        "unfinished": 7,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 4408493,
+          "compressed_bytes": 4707587,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 9116092,
+          "compressed_bytes": 4728636,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "a086cc393962cf7811a5c842e08322b39c56da0ba9d6e9c7b95cce5dac320f80",
+      "content_range": "bytes 13985072043-14001849258/28241946492",
+      "elapsed_seconds": 31.61,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-06_s04",
+        "month": "2026-06",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-06.pgn.zst",
+        "archive_bytes": 28241946492,
+        "stratum": 4,
+        "stratum_start": 14120973246,
+        "stratum_end": 17651216557,
+        "offset": 16985034855,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-06_s04.sqlite"
+      },
+      "counts": {
+        "records_seen": 28341,
+        "header_eligible": 28124,
+        "not_selected": 23511,
+        "processed_games": 4610,
+        "general_sample_games": 1703,
+        "annotated_games": 3092,
+        "evaluated_minor_moves": 68869,
+        "matched_outcome_games": 42,
+        "qualified_evaluation_player_games": 6118,
+        "below_rating_floor": 14,
+        "bot": 105,
+        "not_rated": 91,
+        "invalid_or_too_short": 3,
+        "unfinished": 6,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 3737172,
+          "compressed_bytes": 4720482,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 8457666,
+          "compressed_bytes": 4723559,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "b63745c8a2b3c980b00743d692cc9123c26991ec316eff4e1c5895bcb51a9891",
+      "content_range": "bytes 16985034855-17001812070/28241946492",
+      "elapsed_seconds": 29.92,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-06_s05",
+        "month": "2026-06",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-06.pgn.zst",
+        "archive_bytes": 28241946492,
+        "stratum": 5,
+        "stratum_start": 17651216557,
+        "stratum_end": 21181459869,
+        "offset": 18758947081,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-06_s05.sqlite"
+      },
+      "counts": {
+        "records_seen": 28675,
+        "header_eligible": 28434,
+        "not_selected": 24007,
+        "processed_games": 4423,
+        "general_sample_games": 1729,
+        "annotated_games": 2856,
+        "evaluated_minor_moves": 62611,
+        "matched_outcome_games": 68,
+        "qualified_evaluation_player_games": 5672,
+        "bot": 92,
+        "not_rated": 113,
+        "below_rating_floor": 34,
+        "invalid_or_too_short": 4,
+        "unfinished": 1,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 3444905,
+          "compressed_bytes": 4708191,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 8153108,
+          "compressed_bytes": 4700318,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "b158804adc46e8411fdb1b9885115942293729521e9901444aec3d77be731c65",
+      "content_range": "bytes 18758947081-18775724296/28241946492",
+      "elapsed_seconds": 40.98,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-06_s06",
+        "month": "2026-06",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-06.pgn.zst",
+        "archive_bytes": 28241946492,
+        "stratum": 6,
+        "stratum_start": 21181459869,
+        "stratum_end": 24711703180,
+        "offset": 22300843504,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-06_s06.sqlite"
+      },
+      "counts": {
+        "records_seen": 28924,
+        "header_eligible": 28665,
+        "not_selected": 24169,
+        "processed_games": 4489,
+        "general_sample_games": 1746,
+        "annotated_games": 2896,
+        "evaluated_minor_moves": 62758,
+        "matched_outcome_games": 54,
+        "qualified_evaluation_player_games": 5743,
+        "invalid_or_too_short": 7,
+        "bot": 107,
+        "below_rating_floor": 35,
+        "not_rated": 110,
+        "unfinished": 6,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 4669771,
+          "compressed_bytes": 4714195,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 9383978,
+          "compressed_bytes": 4709352,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "f4e2869e4ddd32f3d4c06ffded73219a3b7fc4d78981249fad58b3ea265dd25d",
+      "content_range": "bytes 22300843504-22317620719/28241946492",
+      "elapsed_seconds": 40.99,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-06_s07",
+        "month": "2026-06",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-06.pgn.zst",
+        "archive_bytes": 28241946492,
+        "stratum": 7,
+        "stratum_start": 24711703180,
+        "stratum_end": 28241946492,
+        "offset": 26179512539,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-06_s07.sqlite"
+      },
+      "counts": {
+        "records_seen": 42525,
+        "header_eligible": 42097,
+        "not_selected": 35459,
+        "processed_games": 6618,
+        "general_sample_games": 2435,
+        "annotated_games": 4447,
+        "evaluated_minor_moves": 99391,
+        "matched_outcome_games": 88,
+        "qualified_evaluation_player_games": 8818,
+        "bot": 180,
+        "not_rated": 188,
+        "invalid_or_too_short": 20,
+        "unfinished": 35,
+        "below_rating_floor": 24,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 2012100,
+          "compressed_bytes": 4715562,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 6727674,
+          "compressed_bytes": 4705249,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 11432935,
+          "compressed_bytes": 4714969,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "c70cbca5600f3670474de805bd0f5aba5c743eb485cd8c5fac0dc7f60ebbf9ac",
+      "content_range": "bytes 26179512539-26196289754/28241946492",
+      "elapsed_seconds": 58.22,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-07_s00",
+        "month": "2026-07",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-07.pgn.zst",
+        "archive_bytes": 29051046504,
+        "stratum": 0,
+        "stratum_start": 0,
+        "stratum_end": 3631380813,
+        "offset": 1292383618,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-07_s00.sqlite"
+      },
+      "counts": {
+        "records_seen": 28872,
+        "header_eligible": 28520,
+        "not_selected": 24001,
+        "processed_games": 4516,
+        "general_sample_games": 1692,
+        "annotated_games": 3006,
+        "evaluated_minor_moves": 65801,
+        "matched_outcome_games": 59,
+        "qualified_evaluation_player_games": 5967,
+        "bot": 209,
+        "below_rating_floor": 47,
+        "not_rated": 93,
+        "invalid_or_too_short": 3,
+        "unfinished": 2,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 3315378,
+          "compressed_bytes": 4706852,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 8022242,
+          "compressed_bytes": 4715255,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "5b4aadeb4a59efc65e341030a49a87a66586b3fa1d26024fc294f8154277bec3",
+      "content_range": "bytes 1292383618-1309160833/29051046504",
+      "elapsed_seconds": 41.7,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-07_s01",
+        "month": "2026-07",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-07.pgn.zst",
+        "archive_bytes": 29051046504,
+        "stratum": 1,
+        "stratum_start": 3631380813,
+        "stratum_end": 7262761626,
+        "offset": 5940204274,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-07_s01.sqlite"
+      },
+      "counts": {
+        "records_seen": 28859,
+        "header_eligible": 28542,
+        "not_selected": 24125,
+        "processed_games": 4412,
+        "general_sample_games": 1714,
+        "annotated_games": 2879,
+        "evaluated_minor_moves": 63420,
+        "matched_outcome_games": 53,
+        "qualified_evaluation_player_games": 5699,
+        "bot": 138,
+        "not_rated": 147,
+        "below_rating_floor": 29,
+        "invalid_or_too_short": 5,
+        "unfinished": 2,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 4021480,
+          "compressed_bytes": 4702563,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 8724055,
+          "compressed_bytes": 4708674,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "d1a1c19af486c47791a0a038f0f9638aa10a875f7e1e8282daf15be3421fb367",
+      "content_range": "bytes 5940204274-5956981489/29051046504",
+      "elapsed_seconds": 40.59,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-07_s02",
+        "month": "2026-07",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-07.pgn.zst",
+        "archive_bytes": 29051046504,
+        "stratum": 2,
+        "stratum_start": 7262761626,
+        "stratum_end": 10894142439,
+        "offset": 8926305282,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-07_s02.sqlite"
+      },
+      "counts": {
+        "records_seen": 28651,
+        "header_eligible": 28478,
+        "not_selected": 24076,
+        "processed_games": 4396,
+        "general_sample_games": 1705,
+        "annotated_games": 2872,
+        "evaluated_minor_moves": 63174,
+        "matched_outcome_games": 49,
+        "qualified_evaluation_player_games": 5698,
+        "below_rating_floor": 16,
+        "bot": 88,
+        "not_rated": 66,
+        "unfinished": 2,
+        "invalid_or_too_short": 6,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 4531131,
+          "compressed_bytes": 4715431,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 9246574,
+          "compressed_bytes": 4714883,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "d9ff2e8b4894460236a94b8ce957fced45948407c989b88341dadd43fd9edc9d",
+      "content_range": "bytes 8926305282-8943082497/29051046504",
+      "elapsed_seconds": 37.84,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-07_s03",
+        "month": "2026-07",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-07.pgn.zst",
+        "archive_bytes": 29051046504,
+        "stratum": 3,
+        "stratum_start": 10894142439,
+        "stratum_end": 14525523252,
+        "offset": 12570675541,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-07_s03.sqlite"
+      },
+      "counts": {
+        "records_seen": 42876,
+        "header_eligible": 42448,
+        "not_selected": 35658,
+        "processed_games": 6784,
+        "general_sample_games": 2596,
+        "annotated_games": 4465,
+        "evaluated_minor_moves": 98005,
+        "matched_outcome_games": 90,
+        "qualified_evaluation_player_games": 8865,
+        "bot": 167,
+        "unfinished": 5,
+        "not_rated": 215,
+        "below_rating_floor": 40,
+        "invalid_or_too_short": 6,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 2000457,
+          "compressed_bytes": 4718717,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 6719186,
+          "compressed_bytes": 4718503,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 11437701,
+          "compressed_bytes": 4719664,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "869ab19262bd3f4507d8b38acd343295a10ee10a60cc79542a73cc6472126e6b",
+      "content_range": "bytes 12570675541-12587452756/29051046504",
+      "elapsed_seconds": 53.22,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-07_s04",
+        "month": "2026-07",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-07.pgn.zst",
+        "archive_bytes": 29051046504,
+        "stratum": 4,
+        "stratum_start": 14525523252,
+        "stratum_end": 18156904065,
+        "offset": 16555531903,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-07_s04.sqlite"
+      },
+      "counts": {
+        "records_seen": 43247,
+        "header_eligible": 42890,
+        "not_selected": 36311,
+        "processed_games": 6572,
+        "general_sample_games": 2553,
+        "annotated_games": 4255,
+        "evaluated_minor_moves": 93181,
+        "matched_outcome_games": 78,
+        "qualified_evaluation_player_games": 8442,
+        "bot": 145,
+        "below_rating_floor": 24,
+        "not_rated": 172,
+        "unfinished": 15,
+        "invalid_or_too_short": 7,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 516829,
+          "compressed_bytes": 4665307,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 5182148,
+          "compressed_bytes": 4671094,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 9853254,
+          "compressed_bytes": 4671624,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "c065f79b12581b13a99db6605d507888fc512c25d458f1e0a2385043ca1948bb",
+      "content_range": "bytes 16555531903-16572309118/29051046504",
+      "elapsed_seconds": 52.28,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-07_s05",
+        "month": "2026-07",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-07.pgn.zst",
+        "archive_bytes": 29051046504,
+        "stratum": 5,
+        "stratum_start": 18156904065,
+        "stratum_end": 21788284878,
+        "offset": 21754350730,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-07_s05.sqlite"
+      },
+      "counts": {
+        "records_seen": 28715,
+        "header_eligible": 28096,
+        "processed_games": 4358,
+        "general_sample_games": 1621,
+        "annotated_games": 2909,
+        "evaluated_minor_moves": 63957,
+        "matched_outcome_games": 62,
+        "qualified_evaluation_player_games": 5768,
+        "below_rating_floor": 42,
+        "not_selected": 23738,
+        "bot": 286,
+        "not_rated": 270,
+        "unfinished": 20,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 3427195,
+          "compressed_bytes": 4714476,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 8141683,
+          "compressed_bytes": 4722252,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "1ec9e79336b522e5ed0a65b0d27f91b1dc7e379e74e6270f9c6427b356c170a9",
+      "content_range": "bytes 21754350730-21771127945/29051046504",
+      "elapsed_seconds": 37.23,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-07_s06",
+        "month": "2026-07",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-07.pgn.zst",
+        "archive_bytes": 29051046504,
+        "stratum": 6,
+        "stratum_start": 21788284878,
+        "stratum_end": 25419665691,
+        "offset": 24544396322,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-07_s06.sqlite"
+      },
+      "counts": {
+        "records_seen": 43369,
+        "header_eligible": 42860,
+        "not_selected": 36408,
+        "processed_games": 6446,
+        "general_sample_games": 2503,
+        "annotated_games": 4188,
+        "evaluated_minor_moves": 92105,
+        "matched_outcome_games": 75,
+        "qualified_evaluation_player_games": 8308,
+        "bot": 266,
+        "not_rated": 143,
+        "unfinished": 48,
+        "below_rating_floor": 51,
+        "invalid_or_too_short": 6,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 2291024,
+          "compressed_bytes": 4702566,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 6993602,
+          "compressed_bytes": 4711870,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 11705484,
+          "compressed_bytes": 4711210,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "6148fa92a043056f9e097bdccdeebf3a54695eb5e8c1f22b82b36b1bbe712473",
+      "content_range": "bytes 24544396322-24561173537/29051046504",
+      "elapsed_seconds": 51.59,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-07_s07",
+        "month": "2026-07",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-07.pgn.zst",
+        "archive_bytes": 29051046504,
+        "stratum": 7,
+        "stratum_start": 25419665691,
+        "stratum_end": 29051046504,
+        "offset": 25562627372,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-07_s07.sqlite"
+      },
+      "counts": {
+        "records_seen": 28898,
+        "header_eligible": 28610,
+        "not_selected": 24247,
+        "processed_games": 4356,
+        "general_sample_games": 1690,
+        "annotated_games": 2850,
+        "evaluated_minor_moves": 62614,
+        "matched_outcome_games": 57,
+        "qualified_evaluation_player_games": 5651,
+        "bot": 141,
+        "not_rated": 103,
+        "unfinished": 24,
+        "below_rating_floor": 19,
+        "invalid_or_too_short": 7,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 3838123,
+          "compressed_bytes": 4717755,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 8555890,
+          "compressed_bytes": 4714092,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "3f2045898c019c87355e9fa849cbb5e3c90c46eeeb98a36c395687af67f8da74",
+      "content_range": "bytes 25562627372-25579404587/29051046504",
+      "elapsed_seconds": 38.31,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-08_s00",
+        "month": "2026-08",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-08.pgn.zst",
+        "archive_bytes": 30145862359,
+        "stratum": 0,
+        "stratum_start": 0,
+        "stratum_end": 3768232794,
+        "offset": 2270876005,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-08_s00.sqlite"
+      },
+      "counts": {
+        "records_seen": 42927,
+        "header_eligible": 42482,
+        "processed_games": 6759,
+        "general_sample_games": 2537,
+        "annotated_games": 4494,
+        "evaluated_minor_moves": 99363,
+        "matched_outcome_games": 73,
+        "qualified_evaluation_player_games": 8913,
+        "not_selected": 35717,
+        "bot": 256,
+        "not_rated": 154,
+        "below_rating_floor": 27,
+        "invalid_or_too_short": 6,
+        "unfinished": 7,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 727430,
+          "compressed_bytes": 4718490,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 5445932,
+          "compressed_bytes": 4716772,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 10162716,
+          "compressed_bytes": 4729331,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "a73dd89cdfaf8b3fa6675ae2e115f1cdcad18385cf80921e992924aea8f8925f",
+      "content_range": "bytes 2270876005-2287653220/30145862359",
+      "elapsed_seconds": 53.0,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-08_s01",
+        "month": "2026-08",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-08.pgn.zst",
+        "archive_bytes": 30145862359,
+        "stratum": 1,
+        "stratum_start": 3768232794,
+        "stratum_end": 7536465589,
+        "offset": 5772519842,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-08_s01.sqlite"
+      },
+      "counts": {
+        "records_seen": 28658,
+        "header_eligible": 28499,
+        "not_selected": 24076,
+        "processed_games": 4416,
+        "general_sample_games": 1745,
+        "annotated_games": 2846,
+        "evaluated_minor_moves": 63137,
+        "matched_outcome_games": 66,
+        "qualified_evaluation_player_games": 5646,
+        "bot": 107,
+        "below_rating_floor": 15,
+        "not_rated": 32,
+        "unfinished": 4,
+        "invalid_or_too_short": 7,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 4271054,
+          "compressed_bytes": 4701763,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 8972829,
+          "compressed_bytes": 4692322,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "9e215ef5a8931d59745a80386102f893981cacee9424b1b129710a1ad5489497",
+      "content_range": "bytes 5772519842-5789297057/30145862359",
+      "elapsed_seconds": 40.48,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-08_s02",
+        "month": "2026-08",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-08.pgn.zst",
+        "archive_bytes": 30145862359,
+        "stratum": 2,
+        "stratum_start": 7536465589,
+        "stratum_end": 11304698384,
+        "offset": 9271920092,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-08_s02.sqlite"
+      },
+      "counts": {
+        "records_seen": 28725,
+        "header_eligible": 28425,
+        "not_selected": 23928,
+        "processed_games": 4494,
+        "general_sample_games": 1665,
+        "annotated_games": 3004,
+        "evaluated_minor_moves": 65508,
+        "matched_outcome_games": 45,
+        "qualified_evaluation_player_games": 5954,
+        "not_rated": 162,
+        "bot": 109,
+        "below_rating_floor": 27,
+        "unfinished": 1,
+        "invalid_or_too_short": 3,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 2921656,
+          "compressed_bytes": 4721487,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 7643155,
+          "compressed_bytes": 4726974,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "0f66a3797ba42861ca594b57390203fdb499e5c31ad920f0baaf36801d485989",
+      "content_range": "bytes 9271920092-9288697307/30145862359",
+      "elapsed_seconds": 44.08,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-08_s03",
+        "month": "2026-08",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-08.pgn.zst",
+        "archive_bytes": 30145862359,
+        "stratum": 3,
+        "stratum_start": 11304698384,
+        "stratum_end": 15072931179,
+        "offset": 12170481076,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-08_s03.sqlite"
+      },
+      "counts": {
+        "records_seen": 43206,
+        "header_eligible": 42671,
+        "not_selected": 36085,
+        "processed_games": 6580,
+        "general_sample_games": 2474,
+        "annotated_games": 4343,
+        "evaluated_minor_moves": 95245,
+        "matched_outcome_games": 80,
+        "qualified_evaluation_player_games": 8615,
+        "bot": 156,
+        "not_rated": 313,
+        "below_rating_floor": 56,
+        "unfinished": 9,
+        "invalid_or_too_short": 6,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 236866,
+          "compressed_bytes": 4738888,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 4975766,
+          "compressed_bytes": 4721536,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 9697314,
+          "compressed_bytes": 4722608,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "6c87fd09021489aefb72bd9a6dca7da475986e212eeafb7ee235d4e7fb5d51f2",
+      "content_range": "bytes 12170481076-12187258291/30145862359",
+      "elapsed_seconds": 76.09,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-08_s04",
+        "month": "2026-08",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-08.pgn.zst",
+        "archive_bytes": 30145862359,
+        "stratum": 4,
+        "stratum_start": 15072931179,
+        "stratum_end": 18841163974,
+        "offset": 17008542536,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-08_s04.sqlite"
+      },
+      "counts": {
+        "records_seen": 43170,
+        "header_eligible": 42683,
+        "not_selected": 36023,
+        "processed_games": 6656,
+        "general_sample_games": 2446,
+        "annotated_games": 4463,
+        "evaluated_minor_moves": 98941,
+        "matched_outcome_games": 77,
+        "qualified_evaluation_player_games": 8851,
+        "below_rating_floor": 66,
+        "bot": 177,
+        "not_rated": 236,
+        "invalid_or_too_short": 4,
+        "unfinished": 7,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 142026,
+          "compressed_bytes": 4729624,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 4871662,
+          "compressed_bytes": 4736268,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 9607942,
+          "compressed_bytes": 4732605,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "f11cc6688dfe038eec62205583776efcb455a291fb6d7ca4f18ec803c489c2b9",
+      "content_range": "bytes 17008542536-17025319751/30145862359",
+      "elapsed_seconds": 86.81,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-08_s05",
+        "month": "2026-08",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-08.pgn.zst",
+        "archive_bytes": 30145862359,
+        "stratum": 5,
+        "stratum_start": 18841163974,
+        "stratum_end": 22609396769,
+        "offset": 20692490301,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-08_s05.sqlite"
+      },
+      "counts": {
+        "records_seen": 43110,
+        "header_eligible": 42641,
+        "not_selected": 35808,
+        "processed_games": 6827,
+        "general_sample_games": 2610,
+        "annotated_games": 4490,
+        "evaluated_minor_moves": 98804,
+        "matched_outcome_games": 81,
+        "qualified_evaluation_player_games": 8901,
+        "bot": 286,
+        "below_rating_floor": 49,
+        "not_rated": 128,
+        "unfinished": 5,
+        "invalid_or_too_short": 6,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 1394917,
+          "compressed_bytes": 4724276,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 6119205,
+          "compressed_bytes": 4728529,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 10847746,
+          "compressed_bytes": 4720308,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "54c205b7f159f1254d4c5fe402b3e1aa5484a93b91d912743e089009a0d01ce2",
+      "content_range": "bytes 20692490301-20709267516/30145862359",
+      "elapsed_seconds": 109.0,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-08_s06",
+        "month": "2026-08",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-08.pgn.zst",
+        "archive_bytes": 30145862359,
+        "stratum": 6,
+        "stratum_start": 22609396769,
+        "stratum_end": 26377629564,
+        "offset": 23429254932,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-08_s06.sqlite"
+      },
+      "counts": {
+        "records_seen": 28840,
+        "header_eligible": 28508,
+        "not_selected": 24213,
+        "processed_games": 4291,
+        "general_sample_games": 1730,
+        "annotated_games": 2726,
+        "evaluated_minor_moves": 60496,
+        "matched_outcome_games": 51,
+        "qualified_evaluation_player_games": 5406,
+        "below_rating_floor": 30,
+        "bot": 155,
+        "invalid_or_too_short": 4,
+        "unfinished": 9,
+        "not_rated": 137,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 4268471,
+          "compressed_bytes": 4686529,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 8955012,
+          "compressed_bytes": 4680760,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "3f5401517240f38fe7651b678d10788870676306704333c872ed0f6a590e0674",
+      "content_range": "bytes 23429254932-23446032147/30145862359",
+      "elapsed_seconds": 78.58,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-08_s07",
+        "month": "2026-08",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-08.pgn.zst",
+        "archive_bytes": 30145862359,
+        "stratum": 7,
+        "stratum_start": 26377629564,
+        "stratum_end": 30145862359,
+        "offset": 28842822104,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-08_s07.sqlite"
+      },
+      "counts": {
+        "records_seen": 42912,
+        "header_eligible": 42212,
+        "not_selected": 35606,
+        "processed_games": 6599,
+        "general_sample_games": 2525,
+        "annotated_games": 4347,
+        "evaluated_minor_moves": 95118,
+        "matched_outcome_games": 81,
+        "qualified_evaluation_player_games": 8612,
+        "below_rating_floor": 58,
+        "bot": 182,
+        "not_rated": 451,
+        "unfinished": 8,
+        "invalid_or_too_short": 7,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 2243823,
+          "compressed_bytes": 4724540,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 6968375,
+          "compressed_bytes": 4719463,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 11687850,
+          "compressed_bytes": 4723678,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "d285d84e0d8cc52663d393fa3b491e93759567bf6a0df79207cc852c048212a3",
+      "content_range": "bytes 28842822104-28859599319/30145862359",
+      "elapsed_seconds": 121.64,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-09_s00",
+        "month": "2026-09",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-09.pgn.zst",
+        "archive_bytes": 29224520887,
+        "stratum": 0,
+        "stratum_start": 0,
+        "stratum_end": 3653065110,
+        "offset": 2258187420,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-09_s00.sqlite"
+      },
+      "counts": {
+        "records_seen": 28971,
+        "header_eligible": 28704,
+        "not_selected": 24079,
+        "processed_games": 4623,
+        "general_sample_games": 1764,
+        "annotated_games": 3025,
+        "evaluated_minor_moves": 66388,
+        "matched_outcome_games": 64,
+        "qualified_evaluation_player_games": 6000,
+        "bot": 159,
+        "below_rating_floor": 25,
+        "not_rated": 78,
+        "invalid_or_too_short": 2,
+        "unfinished": 4,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 3704480,
+          "compressed_bytes": 4717476,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 8421968,
+          "compressed_bytes": 4710292,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "dbb942d006e889b8f12c33dc1a12412aae7ec8a7572c618fac17acfe5dc26f88",
+      "content_range": "bytes 2258187420-2274964635/29224520887",
+      "elapsed_seconds": 83.06,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-09_s01",
+        "month": "2026-09",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-09.pgn.zst",
+        "archive_bytes": 29224520887,
+        "stratum": 1,
+        "stratum_start": 3653065110,
+        "stratum_end": 7306130221,
+        "offset": 4819056336,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-09_s01.sqlite"
+      },
+      "counts": {
+        "records_seen": 28532,
+        "header_eligible": 28230,
+        "not_selected": 24025,
+        "processed_games": 4202,
+        "general_sample_games": 1691,
+        "annotated_games": 2688,
+        "evaluated_minor_moves": 59430,
+        "matched_outcome_games": 45,
+        "qualified_evaluation_player_games": 5331,
+        "bot": 162,
+        "not_rated": 129,
+        "below_rating_floor": 9,
+        "invalid_or_too_short": 3,
+        "unfinished": 1,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 3584945,
+          "compressed_bytes": 4674657,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 8259614,
+          "compressed_bytes": 4675476,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "93d45cce7580050d56d9c89f2ba891bf732514001aa1a3b979018e7670a54d19",
+      "content_range": "bytes 4819056336-4835833551/29224520887",
+      "elapsed_seconds": 78.36,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-09_s02",
+        "month": "2026-09",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-09.pgn.zst",
+        "archive_bytes": 29224520887,
+        "stratum": 2,
+        "stratum_start": 7306130221,
+        "stratum_end": 10959195332,
+        "offset": 10825598350,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-09_s02.sqlite"
+      },
+      "counts": {
+        "records_seen": 43441,
+        "header_eligible": 42979,
+        "not_selected": 36514,
+        "processed_games": 6455,
+        "general_sample_games": 2459,
+        "annotated_games": 4225,
+        "evaluated_minor_moves": 91776,
+        "matched_outcome_games": 74,
+        "qualified_evaluation_player_games": 8371,
+        "bot": 262,
+        "below_rating_floor": 44,
+        "unfinished": 9,
+        "not_rated": 146,
+        "invalid_or_too_short": 10,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 380218,
+          "compressed_bytes": 4706139,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 5086369,
+          "compressed_bytes": 4696873,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 9783254,
+          "compressed_bytes": 4713617,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "d2479b01b70f7247971f5f8d61ee4854cc9c7d85d010e080ef671ae0e9911d3c",
+      "content_range": "bytes 10825598350-10842375565/29224520887",
+      "elapsed_seconds": 113.14,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-09_s03",
+        "month": "2026-09",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-09.pgn.zst",
+        "archive_bytes": 29224520887,
+        "stratum": 3,
+        "stratum_start": 10959195332,
+        "stratum_end": 14612260443,
+        "offset": 13772957226,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-09_s03.sqlite"
+      },
+      "counts": {
+        "records_seen": 43491,
+        "header_eligible": 43131,
+        "not_selected": 36423,
+        "processed_games": 6702,
+        "general_sample_games": 2581,
+        "annotated_games": 4393,
+        "evaluated_minor_moves": 95842,
+        "matched_outcome_games": 88,
+        "qualified_evaluation_player_games": 8705,
+        "bot": 270,
+        "not_rated": 70,
+        "unfinished": 7,
+        "invalid_or_too_short": 6,
+        "below_rating_floor": 12,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 230291,
+          "compressed_bytes": 4702557,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 4932860,
+          "compressed_bytes": 4696976,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 9629848,
+          "compressed_bytes": 4693524,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "5d933d866e7b80ef80d284871753c59bc6f8b52354503a23c6c4b96afe26bf2a",
+      "content_range": "bytes 13772957226-13789734441/29224520887",
+      "elapsed_seconds": 116.91,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-09_s04",
+        "month": "2026-09",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-09.pgn.zst",
+        "archive_bytes": 29224520887,
+        "stratum": 4,
+        "stratum_start": 14612260443,
+        "stratum_end": 18265325554,
+        "offset": 17826995226,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-09_s04.sqlite"
+      },
+      "counts": {
+        "records_seen": 43268,
+        "header_eligible": 42728,
+        "not_selected": 36127,
+        "processed_games": 6598,
+        "general_sample_games": 2488,
+        "annotated_games": 4388,
+        "evaluated_minor_moves": 96607,
+        "matched_outcome_games": 78,
+        "qualified_evaluation_player_games": 8691,
+        "bot": 307,
+        "below_rating_floor": 33,
+        "not_rated": 192,
+        "invalid_or_too_short": 3,
+        "unfinished": 7,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 1507405,
+          "compressed_bytes": 4730539,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 6237956,
+          "compressed_bytes": 4728045,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 10966013,
+          "compressed_bytes": 4734969,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "ca388f054f0e4878239229e663e1282ec6b66f15f0dc2444e71aa38f8f501845",
+      "content_range": "bytes 17826995226-17843772441/29224520887",
+      "elapsed_seconds": 115.62,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-09_s05",
+        "month": "2026-09",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-09.pgn.zst",
+        "archive_bytes": 29224520887,
+        "stratum": 5,
+        "stratum_start": 18265325554,
+        "stratum_end": 21918390665,
+        "offset": 19722072381,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-09_s05.sqlite"
+      },
+      "counts": {
+        "records_seen": 43587,
+        "header_eligible": 43188,
+        "not_selected": 36589,
+        "processed_games": 6592,
+        "general_sample_games": 2592,
+        "annotated_games": 4250,
+        "evaluated_minor_moves": 93131,
+        "matched_outcome_games": 78,
+        "qualified_evaluation_player_games": 8421,
+        "bot": 215,
+        "below_rating_floor": 44,
+        "not_rated": 134,
+        "unfinished": 5,
+        "invalid_or_too_short": 7,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 424117,
+          "compressed_bytes": 4715260,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 5139389,
+          "compressed_bytes": 4706082,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 9845483,
+          "compressed_bytes": 4715102,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "3f5b8aa024c624993146be2e7555c35b78e496e492e95ccfc6830ef3cf190773",
+      "content_range": "bytes 19722072381-19738849596/29224520887",
+      "elapsed_seconds": 122.99,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-09_s06",
+        "month": "2026-09",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-09.pgn.zst",
+        "archive_bytes": 29224520887,
+        "stratum": 6,
+        "stratum_start": 21918390665,
+        "stratum_end": 25571455776,
+        "offset": 24308706626,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-09_s06.sqlite"
+      },
+      "counts": {
+        "records_seen": 28892,
+        "header_eligible": 28515,
+        "not_selected": 24122,
+        "processed_games": 4388,
+        "general_sample_games": 1683,
+        "annotated_games": 2871,
+        "evaluated_minor_moves": 63439,
+        "matched_outcome_games": 51,
+        "qualified_evaluation_player_games": 5699,
+        "not_rated": 166,
+        "below_rating_floor": 28,
+        "bot": 159,
+        "invalid_or_too_short": 5,
+        "unfinished": 23,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 3966550,
+          "compressed_bytes": 4682653,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 8649215,
+          "compressed_bytes": 4689308,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "798a4ba5725a7119db92be36f98f6f7601d4def3ae7baa485e5a780dd5ff8d5d",
+      "content_range": "bytes 24308706626-24325483841/29224520887",
+      "elapsed_seconds": 86.83,
+      "retry_error": null
+    },
+    {
+      "task": {
+        "id": "2026-09_s07",
+        "month": "2026-09",
+        "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2026-09.pgn.zst",
+        "archive_bytes": 29224520887,
+        "stratum": 7,
+        "stratum_start": 25571455776,
+        "stratum_end": 29224520887,
+        "offset": 27558754024,
+        "window_bytes": 16777216,
+        "sample_rate": 0.06,
+        "seed": 20261009,
+        "db_path": "work/wide_study/2026-09_s07.sqlite"
+      },
+      "counts": {
+        "records_seen": 43712,
+        "header_eligible": 43279,
+        "not_selected": 36991,
+        "processed_games": 6282,
+        "general_sample_games": 2549,
+        "annotated_games": 3988,
+        "evaluated_minor_moves": 87142,
+        "matched_outcome_games": 111,
+        "qualified_evaluation_player_games": 7908,
+        "bot": 234,
+        "not_rated": 128,
+        "below_rating_floor": 28,
+        "unfinished": 42,
+        "invalid_or_too_short": 6,
+        "incomplete_tail": 1
+      },
+      "frames": [
+        {
+          "start": 791865,
+          "compressed_bytes": 4697384,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 5489261,
+          "compressed_bytes": 4694306,
+          "uncompressed_bytes": 33554432
+        },
+        {
+          "start": 10183579,
+          "compressed_bytes": 4698746,
+          "uncompressed_bytes": 33554432
+        }
+      ],
+      "sha256": "a58cf3334e741e8c64ab6bbb030ef36ebf7019379bf347f18aaeb3f4c22dcb12",
+      "content_range": "bytes 27558754024-27575531239/29224520887",
+      "elapsed_seconds": 117.12,
+      "retry_error": null
+    }
+  ],
+  "raw_downloaded_bytes": 805306368,
+  "source_archive_bytes": 175677903866,
+  "scanned_counts": {
+    "records_seen": 1769562,
+    "header_eligible": 1751552,
+    "not_selected": 1476603,
+    "processed_games": 274676,
+    "general_sample_games": 104417,
+    "annotated_games": 181031,
+    "evaluated_minor_moves": 3980877,
+    "matched_outcome_games": 3325,
+    "qualified_evaluation_player_games": 359021,
+    "bot": 7673,
+    "not_rated": 8009,
+    "below_rating_floor": 1714,
+    "invalid_or_too_short": 273,
+    "unfinished": 566,
+    "incomplete_tail": 48
+  },
+  "unique_counts": {
+    "processed_games": 274676,
+    "general_sample_games": 104417,
+    "annotated_games": 181031,
+    "evaluated_minor_moves": 3980877,
+    "matched_outcome_games": 3325
+  },
+  "archive_storage": "RAM only; no archive windows retained on disk",
+  "merge_method": "larger-cache rebuild from completed shards; exact row counts verified"
+}

@@ -1,0 +1,10 @@
+{
+  "raw_payload_storage": "Expanded windows used RAM only; worker processes finished.",
+  "pilot_and_probe_files_removed": [
+    "lichess_2026-09_prefix.pgn.zst",
+    "range-probe.zst",
+    "range-probe-large.zst"
+  ],
+  "raw_downloads_remaining": false,
+  "retained": "Reduced SQLite/CSV analysis records and reports"
+}

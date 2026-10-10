@@ -1,0 +1,13 @@
+include LICENSE README.md NOTICE.md CONTRIBUTING.md CHANGELOG.md CITATION.cff
+include requirements*.txt .gitignore .gitattributes
+recursive-include docs *.md *.json
+recursive-include scripts *.py *.js
+recursive-include tests *.py
+recursive-include results *.json *.csv *.md *.html *.png *.svg *.txt
+recursive-include .github *.yml
+exclude results/player_games.csv results/evaluated_player_games.csv results/matched_positions.csv
+prune work
+prune data
+prune build
+prune dist
+global-exclude __pycache__ *.py[cod] *.sqlite *.sqlite-* *.pgn *.zst *.db *.db-* *.zip

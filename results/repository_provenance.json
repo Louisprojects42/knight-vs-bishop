@@ -1,0 +1,32 @@
+{
+  "packaged_version": "0.1.0",
+  "date": "2026-10-10",
+  "scientific_and_package_tests_passed": 28,
+  "offline_filter_combinations": 35,
+  "wheel_installed_and_imported": true,
+  "source_and_wheel_distributions_built": true,
+  "published_statistics_unchanged": true,
+  "model_design_identical_games": 55663,
+  "model_design_identical_player_rows": 111326,
+  "pages_preparation_checked": true,
+  "local_report_links_checked": true,
+  "ci_configured_for": [
+    "ubuntu-latest / Python 3.12",
+    "ubuntu-latest / Python 3.13",
+    "windows-latest / Python 3.12",
+    "windows-latest / Python 3.13"
+  ],
+  "ci_status": "Configured; remote CI has not run because the repository is not published.",
+  "source_sha256": {
+    "src/knight_bishop_study/__init__.py": "59167fc994aa23fd32388ac35f69788fbd6135dc93969646e8f762e642416363",
+    "src/knight_bishop_study/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "src/knight_bishop_study/analysis.py": "11c77e27509f847578d176105c7cb00a0b8b3ad38ba82a2345a97ed075890a24",
+    "src/knight_bishop_study/cli.py": "bcf0570688d5ff063bd60b079a4337992c67cd6ec30bbe65d850b7047e68214a",
+    "src/knight_bishop_study/core.py": "baabd60cd6bc7392b40e335aa3131dfd53418bee87c6f754693b447b202894c8",
+    "src/knight_bishop_study/outcomes.py": "bc6c34d8b8c42f4d7fd8fb5bf4eb0c05cafffe0ba9ec043f759020638704ef39",
+    "src/knight_bishop_study/reporting.py": "f086022abbccda44b4365a47db86164c6fcf71ce8e65ce34326e5bc7488d1295",
+    "src/knight_bishop_study/sampling.py": "5567600486a9972351e24f74d4c2c9b828995629dee50ec6f145a4c9c2fdcf0c",
+    "src/knight_bishop_study/validation.py": "d12f7a889853867bbc18bdce19e5ee8358a4f089569e6303e42517aa3acda850",
+    "src/knight_bishop_study/visuals.py": "1c4abd02f18d5c649119bcb57167a34e16b3532c89e586cd8a9f8e8279afec3c"
+  }
+}

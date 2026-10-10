@@ -1,0 +1,7 @@
+# Direct dependency versions used for the published research run.
+# This is an environment record, not a platform-independent hash lock.
+chess==1.11.2
+zstandard==0.25.0
+numpy==2.5.3
+requests==2.34.2
+matplotlib==3.10.7

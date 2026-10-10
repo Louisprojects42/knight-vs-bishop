@@ -1,0 +1,35 @@
+# Environments, dependencies, caches, and build products
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.matplotlib/
+.env
+.env.*
+*.log
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Downloaded games, checkpoint shards, and large reduced datasets
+work/
+data/
+*.pgn
+*.pgn.zst
+*.zst
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.zip
+results/player_games.csv
+results/evaluated_player_games.csv
+results/matched_positions.csv
+results/validation_log.local.txt

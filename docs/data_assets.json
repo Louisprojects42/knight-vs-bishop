@@ -1,0 +1,34 @@
+{
+  "archive": {
+    "filename": "knight_bishop_reduced_data.zip",
+    "bytes": 390040946,
+    "sha256": "7d7a8ad6f2e437e866351badf3ebed30bcce1259140c8e0ccfed13cd6562960b"
+  },
+  "members": {
+    "expanded/study.sqlite": {
+      "bytes": 1149296640,
+      "sha256": "3b0982fb6a848e89a1d42823fdc8bcd365a9cb676486e02bfb316ef249572b04"
+    },
+    "expanded/outcomes.sqlite": {
+      "bytes": 46735360,
+      "sha256": "30a5c3570197ebabf7f29e40ebe7a3d90293b4cb26ccf9aad24e68f9191b823d"
+    },
+    "expanded/player_games.csv": {
+      "bytes": 55843322,
+      "sha256": "db28805cef48bd480d607c13308e358ffe2bb2dd4fb9f4a0eb4905812e4648da"
+    },
+    "expanded/evaluated_player_games.csv": {
+      "bytes": 121537795,
+      "sha256": "5b6243802aa7a8f000787526cd3e29cbddd40aa737f7bedfdda062ad0863dd26"
+    },
+    "expanded/matched_positions.csv": {
+      "bytes": 22157721,
+      "sha256": "826a154f70473b7d64cf729fabfc8178b99ab49a356e88447cbbeebdbb1af437"
+    },
+    "expanded/clock_normalization.csv": {
+      "bytes": 4909825,
+      "sha256": "4daac31468f1591f120d3a0f985111c02eb8a0f2c8592c2d0b59164c0141331b"
+    }
+  },
+  "availability": "Prepared local release asset; no public URL assigned yet."
+}

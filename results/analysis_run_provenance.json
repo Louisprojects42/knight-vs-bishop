@@ -1,0 +1,35 @@
+{
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "sqlite": "3.49.1",
+  "packages": {
+    "chess": "1.11.2",
+    "numpy": "2.5.3",
+    "matplotlib": "3.10.7",
+    "requests": "2.34.2",
+    "zstandard": "0.25.0"
+  },
+  "script_sha256": {
+    "knight_bishop.py": "baabd60cd6bc7392b40e335aa3131dfd53418bee87c6f754693b447b202894c8",
+    "six_month_study.py": "c327c430385dd0c834891d6342baa3502070dcc376243bd96b03a43745697bd6",
+    "outcome_scan.py": "d1a590261c5e34c449c4dc39167aa1e7dc8345ef07a456e0c26ca010a932c1c3",
+    "analyze_expanded.py": "ecc31b4997c7a5397c53f7f3e003ca573b055e09d3f50a23e0c0229bb07579eb",
+    "report_expanded.py": "ad95e0d5fcb3612aee885d7d4e9fbbf84b1ca1a1a50fa669e287a3f7a293382d",
+    "visual_summary.py": "f0907980bd3c4a2a65db0a1ebbb7c21d408522d0ef127d5013ddefb5aabb177a",
+    "validate_expanded.py": "2500dd0fd03dddb0762e45f25bc8d2549dc903a19ad0e89b6affbbb7159a2f90",
+    "test_expanded.py": "6e476835170940ad9e23c271f51728ea0debd5c34ddf5227d78b5a56af0ccea5",
+    "test_knight_bishop.py": "80493f6338be3b85b14a0dbef24ce406b28397bbdb9a253030951963f1be33d9",
+    "requirements.txt": "29acbf0d8734c8d09ec01e1deee46d942639fc4b5f9220141815d33c78e64f1c"
+  },
+  "automated_tests_passed": 19,
+  "streaming_scanner_reference_comparison": {
+    "games": 2000,
+    "matches": 75,
+    "identical": true
+  },
+  "offline_report_checks": {
+    "filter_combinations": 35,
+    "rows_per_filter": 7,
+    "embedded_figures": 5
+  }
+}

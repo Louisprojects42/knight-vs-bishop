@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "knight-bishop-study"
+version = "0.1.0"
+description = "Reproducible Lichess study of knight and bishop captures, influence, engine changes, and actual outcomes"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
+dependencies = [
+  "chess==1.11.2",
+  "zstandard==0.25.0",
+  "numpy>=2.0,<3",
+  "requests>=2.32,<3",
+  "matplotlib>=3.10,<4",
+]
+
+[project.optional-dependencies]
+dev = ["build>=1.2", "ruff>=0.9"]
+
+[project.scripts]
+kb-study = "knight_bishop_study.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E9", "F63", "F7", "F82"]

@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this software and identify the sampling manifests when using the published results."
+type: software
+title: "Knight vs Bishop: an empirical Lichess study"
+authors:
+  - name: "Knight vs Bishop contributors"
+version: 0.1.0
+date-released: 2026-10-10
+license: GPL-3.0-or-later
+abstract: "A reproducible study of original knight and bishop captures, spatial influence, adjacent engine winning-chance changes, and actual outcomes across ratings and game lengths."
+keywords:
+  - chess
+  - lichess
+  - reproducible-research
+  - observational-study

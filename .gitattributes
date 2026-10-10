@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.png binary
+*.svg text
+*.json text
+# Keep published CSV bytes stable for release-asset checksums.
+*.csv -text
+*.html text

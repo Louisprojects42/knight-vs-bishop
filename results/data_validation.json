@@ -1,0 +1,8 @@
+{
+  "validated_games": 274676,
+  "validated_evaluated_moves": 3980877,
+  "validated_matched_positions": 55663,
+  "invalid_move_records": 0,
+  "source_and_outcome_window_hashes_equal": true,
+  "sqlite_quick_checks": "ok"
+}
