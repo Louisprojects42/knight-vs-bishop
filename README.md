@@ -78,7 +78,7 @@ These are **observational associations**, not causal credit for every piece. Byt
 
 ```bash
 python -m pip install -e ".[dev]"
-python -m unittest discover -s tests -v
+python -m unittest discover -s tests -v    
 ruff check src tests
 kb-study render
 node scripts/check_report.js
